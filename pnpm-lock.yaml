@@ -128,6 +128,9 @@ importers:
       nanostores:
         specifier: ^0.10.3
         version: 0.10.3
+      nodejs:
+        specifier: ^0.0.0
+        version: 0.0.0
       react:
         specifier: ^18.2.0
         version: 18.3.1
@@ -3831,6 +3834,9 @@ packages:
   node-stdlib-browser@1.2.0:
     resolution: {integrity: sha512-VSjFxUhRhkyed8AtLwSCkMrJRfQ3e2lGtG3sP6FEgaLKBBbxM/dLfjRe1+iLhjvyLFW3tBQ8+c0pcOtXGbAZJg==}
     engines: {node: '>=10'}
+
+  nodejs@0.0.0:
+    resolution: {integrity: sha512-1V+0HwaB/dhxzidEFc4uJ3k52gLI4B6YBZgJIofjwYCSAkD6CI0me6TDBT2QM2nbGWNxCHcq9/wVynzQYZOhUg==}
 
   normalize-package-data@5.0.0:
     resolution: {integrity: sha512-h9iPVIfrVZ9wVYQnxFgtw1ugSvGEMOlyPWWtm8BMJhnwyEL/FLbYbTY3V3PpjI/BUK67n9PEWDu6eHzu1fB15Q==}
@@ -9572,6 +9578,8 @@ snapshots:
       url: 0.11.3
       util: 0.12.5
       vm-browserify: 1.1.2
+
+  nodejs@0.0.0: {}
 
   normalize-package-data@5.0.0:
     dependencies:
